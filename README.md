@@ -33,7 +33,7 @@ NUMBER OF IMAGES USED FOR TESTING → 10500
 
 #### PROCEDURE 
 
-1. CONVERTING COOLOR CHANNELS: Loaded BGR image converted to is converted to HSV 
+1. CONVERTING COLOR CHANNELS: Loaded BGR image converted to is converted to HSV 
 2. INRANGE THRESHOLDING: thresholding done to segment skin areas of the image 
 3. MORPHOLOGICAL TRANSFORMATIONS: applying erosion and dilation to remove noise and soften the image
 4. BINARY THRESHOLDING: image is converted back to grayscale and thresholding is applied 
@@ -46,10 +46,28 @@ NUMBER OF IMAGES USED FOR TESTING → 10500
 
 ## BUILDING CNN
 
+CNN is a kind of artificial neural network used primarily in applications that involve image processing. It allows us to apply convolutional operations to the input image to extract features before feeding it to a fully connected neural network for classification purposes 
+
+The open source libraries keras and tensorflow were used for building, compiling and evaluating the model. 
+
+## FITTING AND EVALUATION
+
+The model ran for 5 epochs and an accuracy of 99.23% was obtained
+
+[ML model notebook](ml_model_final.ipynb)
+
+## REAL TIME EVALUATION 
+
+![image](https://user-images.githubusercontent.com/69666461/148633976-3a03e457-5e13-49d9-8784-86d421a6c811.png)
+
+![image](https://user-images.githubusercontent.com/69666461/148634003-2a7d2bfe-088e-47b3-8d55-722cbb589905.png)
 
 
+Our model predicts most of the signs fairly well though it consistently predicts the wrong output for certain letters. It often mistakes signs for the letters O,T,S,H which look similar. It performs better on the single handed signs over the double handed ones.
 
+[implementation notebook](app_final.ipynb)
 
+## INFERENCE 
 
-
+Though we've attained a high accuracy our model we’ve observed that it does not perform well for all signs and depends heavily on external criteria like the lighting of a place and orientation of the hand. We’ve concluded that this is most likely because of a lack of diversity in the dataset and can easily be rectified by creating a dataset with differing images for each sign. 
 
