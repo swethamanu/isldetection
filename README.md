@@ -13,7 +13,7 @@ Indian Sign language (ISL) is used by millions of specially abled people all acr
 
 ## IDENTIFYING THE DATASET
 
-We searched the web and found a suitable dataset on Github by @Karthikeyu who had developed a similar application. It is a self created dataset and all the images were captured by him. It included signs for alphabets (A-Z) and digits (1-9), a total of 35 classes. 
+We searched the web and found a suitable dataset on Github by user [Karthikeyu](https://github.com/Karthikeyu) who had developed a similar application. It is a self created dataset and all the images were captured by him. It included signs for alphabets (A-Z) and digits (1-9), a total of 35 classes. 
 
 #### TEST-TRAIN SPLIT
 
@@ -27,6 +27,17 @@ NUMBER OF IMAGES USED FOR TESTING → 10500
 ###### link to the dataset ---> [datset](https://drive.google.com/drive/folders/1keWr7-X8aR4YMotY2m8SlEHlyruDDdVi)
 
 ## PREPROCESSING
+
+#### PROCEDURE 
+
+1. CONVERTING COOLOR CHANNELS: Loaded BGR image converted to is converted to HSV 
+2. INRANGE THRESHOLDING: thresholding done to segment skin areas of the image 
+3. MORPHOLOGICAL TRANSFORMATIONS: applying erosion and dilation to remove noise and soften the image
+4. BINARY THRESHOLDING: image is converted back to grayscale and thresholding is applied 
+
+#### RESULT 
+
+
 
 
 
