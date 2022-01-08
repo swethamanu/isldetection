@@ -18,10 +18,13 @@ We searched the web and found a suitable dataset on Github by user [Karthikeyu](
 #### TEST-TRAIN SPLIT
 
 TOTAL NUMBER OF IMAGES → 42000
+
 NUMBER OF CLASSES → 35 
+
 IMAGES PER CLASS → 1200 
 
 NUMBER OF IMAGES USED FOR TRAINING → 31500
+
 NUMBER OF IMAGES USED FOR TESTING → 10500
 
 ###### link to the dataset ---> [datset](https://drive.google.com/drive/folders/1keWr7-X8aR4YMotY2m8SlEHlyruDDdVi)
@@ -36,6 +39,9 @@ NUMBER OF IMAGES USED FOR TESTING → 10500
 4. BINARY THRESHOLDING: image is converted back to grayscale and thresholding is applied 
 
 #### RESULT 
+
+![image](https://user-images.githubusercontent.com/69666461/148633496-fbe32411-82d2-431d-927d-57e9772b90bc.png)
+
 
 
 
