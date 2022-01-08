@@ -42,7 +42,7 @@ NUMBER OF IMAGES USED FOR TESTING → 10500
 
 ![image](https://user-images.githubusercontent.com/69666461/148633496-fbe32411-82d2-431d-927d-57e9772b90bc.png)
 
-[preprocessing notebook](isldetection/preprocessing_final.ipynb)
+[preprocessing notebook](preprocessing_final.ipynb)
 
 ## BUILDING CNN
 
